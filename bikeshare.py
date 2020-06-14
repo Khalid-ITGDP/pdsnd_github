@@ -19,7 +19,7 @@ def get_filters():
     """
 
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    
 
     while True:
         city = input(
@@ -31,7 +31,7 @@ def get_filters():
         else:
             break
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    
 
     while True:
         month = input(
@@ -44,7 +44,7 @@ def get_filters():
         else:
             break
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    
 
     while True:
         day = input(
@@ -245,7 +245,7 @@ def main():
         user_stats(df)
         data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes.\n')
         if restart.lower() != 'yes':
             break
 
