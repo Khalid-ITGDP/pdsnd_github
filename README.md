@@ -8,7 +8,7 @@ Bikeshare
 Bikeshare statistics in US
 
 ### Files used
-Include the files used
+CSV Files
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
